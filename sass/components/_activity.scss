@@ -1,3 +1,10 @@
+.activity {
+  display: none;
+  @include desktop {
+    display: block;
+  }
+}
+
 .activity-title {
   font-size: 36px;
   line-height: 1.16;
