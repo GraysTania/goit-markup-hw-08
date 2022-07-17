@@ -1,11 +1,14 @@
 .portfolio-buttons-list {
   display: flex;
-  // justify-content: center;
+
   flex-wrap: wrap;
   gap: 15px 8px;
 
   // margin-bottom: 50px;
   margin-bottom: 40px;
+  @include tablet {
+    justify-content: center;
+  }
 }
 
 // .portfolio-buttons-item:not(:last-child) {
