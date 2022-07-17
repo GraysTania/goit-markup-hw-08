@@ -403,6 +403,10 @@ img {
   justify-content: space-between;
 }
 
+.mob-menu-soc__item {
+  display: flex;
+}
+
 .mob-menu-soc__link {
   font-weight: 500;
   font-size: 12px;
@@ -418,10 +422,11 @@ img {
   }
 }
 
-.mob-menu-soc-line:not(:last-child) {
+.mob-menu-soc-line {
   width: 0;
   height: 22px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin-left: 10px;
 }
 
 .hero {
